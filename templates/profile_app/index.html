@@ -1,29 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% load static %}
-    <meta charset="UTF-8">
-    <title>Anthony Torres</title>
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/bootstrap-grid.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.min.css' %}">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-</head>
-<body>
-{% block navbar %}
-{% endblock %}
-
+{% extends 'profile_app/base.html' %}
+{% load static %}
 {% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center">About me</h1>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 ">
+                        <img class="img-fluid rounded-circle" src="{% static 'media/sexy_daddy.jpg' %}" alt="image">
+                    </div>
+                    <div class="col-lg-6 col-md-12 text text-center">
+                        <p>My name is Anthony.</p>
+                        <p>I'm a passionate software developer who was born in Lima-Peru.</p>
+                        <p>Got my bachelors in Engineering and masters in Business Administration from Purdue University. Some people call us Boiler Makers. Why? You ask... No idea, I'm foreign...</p>
+                        <p>I admire Steve Jobs, Elon Musk, Goku, Mozart, my lovely mother and my grandma.</p>
+                        <p>My dream is to become the next big thing in software development, music and acting.</p>
+                        <p>My goal is to make a difference and be recorded in history books.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <h2>Why should you hire me,</h2>
+                    <h2>Work with me, or</h2>
+                    <h2>Be my friend?</h2>
+                    <p>Because I will do my very best to get you the best working web or software application.</p>
+                    <p>Because I'm motivated to succeed and make a positive change in this world. </p>
+                    <p>Because I will be as loyal as a wolf (a cool Gray wolf). </p>
+                    <p>Because I will always be myself. </p>
+                    <h2>Not sure yet?</h2>
+                    <p>Keep Scrolling... Everything will be fine! (As I whisper in your ear)</p>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
-
-{% block footer %}
-{% endblock %}
-
-<script src="{% static 'javascript/jquery.js' %}"></script>
-<script src="{% static 'javascript/bootstrap.bundle.min.js' %}"></script>
-<script src="{% static 'javascript/bootstrap.min.js' %}"></script>
-</body>
-</html>
