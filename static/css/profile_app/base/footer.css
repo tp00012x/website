@@ -63,10 +63,6 @@ footer .content .top i {
 /*Cat animation*/
 /**/
 
-.cat-container {
-    padding: .75rem;
-}
-
 .cat {
     position: relative;
     height: 1.25rem;
