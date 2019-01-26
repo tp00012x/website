@@ -94,7 +94,7 @@ footer .content .footer-name:hover {
     top: -30%;
     height: 60%;
     width: 25%;
-    background: #7f8197;
+    background: #9d9fb6;
 }
 
 .ear::before, .ear::after {
@@ -104,7 +104,7 @@ footer .content .footer-name:hover {
     height: 10%;
     width: 5%;
     border-radius: 50%;
-    background: #bfbfbf;
+    background: #cdcdcd;
 }
 
 .ear::after {
