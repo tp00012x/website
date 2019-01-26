@@ -59,6 +59,19 @@ footer .content .top i {
     transition: 500ms ease-in-out;
 }
 
+footer .content .footer-name {
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+}
+
+footer .content .footer-name:hover {
+    color: #ff69c9;
+    transition: 350ms ease-in-out;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
 /**/
 /*Cat animation*/
 /**/
@@ -67,6 +80,13 @@ footer .content .top i {
     position: relative;
     height: 1.25rem;
     width: 1.6rem;
+    transition: 500ms ease-in-out;
+}
+
+.cat:hover {
+    transition: 350ms ease-in-out;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 .ear {
