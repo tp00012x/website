@@ -2,34 +2,30 @@
 {% load static %}
 {% block body %}
     <div class="wrapper">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="text-center">About me</h1>
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 ">
-                        <img class="img-fluid rounded-circle" src="{% static 'media/sexy_daddy.jpg' %}" alt="image">
-                    </div>
-                    <div class="col-lg-6 col-md-12 text text-center">
-                        <p>My name is Anthony.</p>
-                        <p>I'm a passionate software developer who was born in Lima-Peru.</p>
-                        <p>Got my bachelors in Mechanical Engineering and MBA from Purdue University. Some people call us Boiler Makers. Why? You ask... No idea, I'm foreign...</p>
-                        <p>I admire Steve Jobs, Elon Musk, Mozart, the guy from 'Deez nutz' and my lovely mother (she kinda annoying tho)</p>
-                        <p>My dream is to become the next big thing in software development, music and acting.</p>
-                        <p>My goal is to make a difference and be recorded in history books.</p>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <h2>Why should you hire me,</h2>
-                    <h2>Work with me, or</h2>
-                    <h2>Be my friend?</h2>
-                    <p>Because I will do my very best to get you the best working web or software application.</p>
-                    <p>Because I'm motivated to succeed and make a positive change in this world. </p>
-                    <p>Because I will be as loyal as a wolf (a cool Gray wolf). </p>
-                    <p>Because I will always be myself. </p>
-                    <h2>Not sure yet?</h2>
-                    <p>Keep Scrolling... Everything will be fine! (As I whisper in your ear)</p>
-                </div>
-            </div>
+        <div class="title">
+            <h1 class="text-center">About me</h1>
         </div>
+        <div class="profile-image">
+            <img class="img-fluid rounded-circle" src="{% static 'media/sexy_daddy.jpg' %}" alt="image">
+        </div>
+        <div class="main-description">
+            <p>My name is Anthony.</p>
+            <p>I'm a passionate software developer who was born in Lima-Peru.</p>
+            <p>Got my bachelors in Mechanical Engineering and MBA from Purdue University. Some people call us Boiler Makers. Why? You ask... No idea, I'm foreign...</p>
+            <p>I admire Steve Jobs, Elon Musk, Mozart, the guy from 'Deez nutz' and my lovely mother (she kinda annoying tho)</p>
+            <p>My dream is to become the next big thing in software development, music and acting.</p>
+            <p>My goal is to make a difference and be recorded in history books.</p>
+        </div>
+    </div>
+    <div>
+        <h2>Why should you hire me,</h2>
+        <h2>Work with me, or</h2>
+        <h2>Be my friend?</h2>
+        <p>Because I will do my very best to get you the best working web or software application.</p>
+        <p>Because I'm motivated to succeed and make a positive change in this world. </p>
+        <p>Because I will be as loyal as a wolf (a cool Gray wolf). </p>
+        <p>Because I will always be myself. </p>
+        <h2>Not sure yet?</h2>
+        <p>Keep Scrolling... Everything will be fine! (As I whisper in your ear)</p>
     </div>
 {% endblock %}

@@ -1,0 +1,20 @@
+.title {
+    grid-area: title;
+}
+
+.profile-image {
+    grid-area: profile-image;
+}
+
+.main-description {
+    grid-area: main-description;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.5fr 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        ". . title . ."
+        ". profile-image . main-description ."
+}
