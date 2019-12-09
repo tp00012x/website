@@ -1,20 +1,23 @@
-.title {
-    grid-area: title;
+.main-content {
+    flex: 1;
 }
 
-.profile-image {
-    grid-area: profile-image;
+.main-content img {
+    float: left;
+    shape-outside: circle();
+    max-width: 500px;
+    max-height: 500px;
 }
 
-.main-description {
-    grid-area: main-description;
+.main-content p {
+    text-align: justify;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1.5fr 2fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-        ". . title . ."
-        ". profile-image . main-description ."
+@media only screen and (max-width: 600px) {
+    .main-content img {
+        float: none;
+        max-width: 400px;
+        max-height: 400px;
+    }
+
 }

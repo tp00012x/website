@@ -1,30 +1,46 @@
 {% extends 'profile_app/base.html' %}
 {% load static %}
 {% block body %}
-    <div class="wrapper">
-        <div class="title">
-            <h1 class="text-center">About me</h1>
-        </div>
-        <div class="profile-image">
-            <img class="img-fluid rounded-circle" src="{% static 'media/sexy_daddy.jpg' %}" alt="image">
-        </div>
-        <div class="main-description">
-            <p>My name is Anthony.</p>
-            <p>I'm a passionate software developer who was born in Lima-Peru.</p>
-            <p>Got my bachelors in Mechanical Engineering and MBA from Purdue University. Some people call us Boiler Makers. Why? You ask... No idea, I'm foreign...</p>
-            <p>I admire Steve Jobs, Elon Musk, Mozart, the guy from 'Deez nutz' and my lovely mother (she kinda annoying tho)</p>
-            <p>My dream is to become the next big thing in software development, music and acting.</p>
-            <p>My goal is to make a difference and be recorded in history books.</p>
+    <div class="title mt-3">
+        <h2 class="text-center">About me</h2>
+    </div>
+    <div class="d-flex">
+        <div class="main-content mx-5">
+            <img class="rounded-circle p-5" src="{% static 'media/sexy_daddy.jpg' %}" alt="image">
+            <p class="pt-3">
+                <strong>My name is Anthony.</strong>
+                <br><br>
+                I'm a passionate software developer who was born in Lima-Peru.
+                <br><br>
+                Got my bachelors in Mechanical Engineering and MBA from Purdue University.
+                <br><br>
+                Some people call us Boiler Makers. Why? You ask... No idea, I'm foreign...
+                <br><br>
+                I admire Steve Jobs, Elon Musk, Mozart and my lovely mother (she kinda annoying tho).
+                <br><br>
+                My dream is to leave a mark in the world as a software developer, musician and actor.
+                <br><br>
+                My goal is to make a difference and be recorded in history books.
+            </p>
         </div>
     </div>
-    <div>
-        <h2>Why should you hire me,</h2>
-        <h2>Work with me, or</h2>
-        <h2>Be my friend?</h2>
-        <p>Because I will do my very best to get you the best working web or software application.</p>
-        <p>Because I'm motivated to succeed and make a positive change in this world. </p>
-        <p>Because I will be as loyal as a wolf (a cool Gray wolf). </p>
-        <p>Because I will always be myself. </p>
+    <div class="mx-5">
+        <h2>
+            Why should you hire me,
+            <br>
+            Work with me, or
+            <br>
+            Be my friend?
+        </h2>
+        <p>
+            Because I will do my very best to get you the best working web or software application. (UNLIKE THIS WEBSITE)
+            <br><br>
+            Because I'm motivated to succeed and make a positive change in this world.
+            <br><br>
+            Because I will be as loyal as a wolf (a cool Gray wolf).
+            <br><br>
+            Because I will always be myself.
+        </p>
         <h2>Not sure yet?</h2>
         <p>Keep Scrolling... Everything will be fine! (As I whisper in your ear)</p>
     </div>
